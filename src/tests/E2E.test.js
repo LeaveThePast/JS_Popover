@@ -7,7 +7,7 @@ describe("E2E tests", () => {
   beforeAll(async () => {
     browser = await launch();
     page = await browser.newPage();
-    await page.goto("http://127.0.0.1:5500/dist/index.html");
+    await page.goto("https://leavethepast.github.io/JS_Popover/");
   });
 
   afterAll(() => {
