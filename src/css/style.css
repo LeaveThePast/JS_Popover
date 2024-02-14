@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.popoverButton {
+  background-color: #007BFF;; /* Зеленый */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 200px
+}
+
+.popoverButton:hover {
+  background-color: #0056b3;
+}
+
+
+.popover {
+  visibility: hidden;
+  position: absolute;
+  background-color: #007BFF;
+  z-index: 1;
+  width: 200px;
+}
+
+.popover_active {
+  visibility: visible;
+}
+
+.popoverName {
+  background-color: #0056b3;
+}
